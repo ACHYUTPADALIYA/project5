@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Arrays In Project</title>
+    <p id="demo"></p>
+    <p id="myj"></p>
+    <p id="msp"></p>
+    <p id="mfp"></p>
+    <p id="demo1"></p>
+</head>
+<body>
+    <center>
+        <script>
+            function add(a,b){
+        return a+b;
+        }
+        function average(a,b){
+        return add(a,b)/2;
+        }
+        let result = average(99,11);
+        document.getElementById("demo").innerHTML = result;
+
+        var fruits = ["Apple", "Mango", "Dragon Fruit","Golden Mango","Jack Fruit"];
+         document.getElementById("myj").innerHTML=fruits.join("#")
+         document.getElementById("mfp").innerHTML=fruits.pop()
+         document.getElementById("msp").innerHTML=fruits.pop()
+
+           var cars=["Rolls Royce", "Aston Martin", "Bentely"];
+            document.getElementById("demo1").innerHTML=cars[0];
+        </script>
+    </center>
+</body>
+</html>
